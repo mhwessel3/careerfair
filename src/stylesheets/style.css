@@ -17,22 +17,25 @@ body {
 
 .headwrapper {
   height: 100%;
-  width: 25%;
   position: fixed;
   z-index: 1;
   top: 0;
   overflow-x: hidden;
   padding-left: 35px;
+  padding-right: 35px;
+  background-color: #13294b;
+  color: white;
 }
 
 .memberCards {
   float: left;
+  padding-right: 50px;
 }
 
 #memberImg {
   height: 300px;
   width: 300px;
-  padding-right: 50px;
+  float: right;
 }
 
 .bodywrapper {
@@ -43,4 +46,55 @@ body {
   top: 0;
   overflow-x: hidden;
   padding-top: 30px;
+}
+
+#volunteerInfo {
+  float: left;
+}
+
+#volunteerText {
+  margin-top: 0px;
+}
+
+#volunteerImg {
+  float: left;
+  width: 43%;
+  padding-right: 50px;
+}
+
+#member_name {
+  text-align: left;
+  font-weight: bolder;
+}
+
+#info_img {
+  width: 95%;
+}
+
+#quicklinks:hover {
+  color: orange;
+}
+
+#content_header {
+  color: #e84a27;
+  margin-top: 0px;
+  font-weight: bolder;
+}
+
+p:hover {
+}
+
+#member_title {
+  text-align: left;
+}
+
+#member_text {
+  float: left;
+}
+
+#linkedinImg {
+  width: 30px;
+  float: right;
+  margin-right: 28px;
+  margin-top: 24px;
 }

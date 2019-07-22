@@ -1,7 +1,7 @@
 import React from "react";
 import MainContent from "./MainContent";
 
-class Person extends React.Component {
+class InterviewLocations extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -29,4 +29,4 @@ class Person extends React.Component {
   }
 }
 
-export default Person;
+export default InterviewLocations;

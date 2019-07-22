@@ -19,14 +19,27 @@ class Header extends React.Component {
       <div id="main">
         <div className="split left headwrapper">
           <h1>ILLINOIS EXPO</h1>
-          <p onClick={this.handleClick.bind(this, "Information")}>
+          <p
+            id="quicklinks"
+            onClick={this.handleClick.bind(this, "Information")}
+          >
             Information
           </p>
-          <p onClick={this.handleClick.bind(this, "InterviewLocations")}>
+          <p id="quicklinks" onClick={this.handleClick.bind(this, "Map")}>
+            Company Booth Map
+          </p>
+          <p
+            id="quicklinks"
+            onClick={this.handleClick.bind(this, "InterviewLocations")}
+          >
             Interview Locations
           </p>
-          <p onClick={this.handleClick.bind(this, "Volunteer")}>Volunteer</p>
-          <p onClick={this.handleClick.bind(this, "Committee")}>Committee</p>
+          <p id="quicklinks" onClick={this.handleClick.bind(this, "Volunteer")}>
+            Volunteer
+          </p>
+          <p id="quicklinks" onClick={this.handleClick.bind(this, "Committee")}>
+            Committee
+          </p>
         </div>
         <div className="split right bodywrapper">
           <MainContent type={this.state.activeTab} />
