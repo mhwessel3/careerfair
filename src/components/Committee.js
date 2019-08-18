@@ -78,7 +78,12 @@ class Committee extends React.Component {
       return <Person member={member} />;
     });
 
-    return <div className="committee">{membersList}</div>;
+    return (
+      <div>
+        <h2 id="content_header">committee</h2>
+        <div className="committee">{membersList}</div>
+      </div>
+    );
   }
 }
 
