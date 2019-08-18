@@ -5,45 +5,32 @@ import InterviewLocations from "./InterviewLocations";
 import Map from "./Map";
 import Volunteer from "./Volunteer";
 import Committee from "./Committee";
+import RecruiterInfo from "./RecruiterInfo";
 
 class MainContent extends React.Component {
   constructor(props) {
     super(props);
   }
 
-  getPageType() {
-    console.log(this.props.type);
-  }
-
   render() {
     return (
-      <div>
-        {this.props.type == "Information" ? (
-          <div>
-            <h2 id="content_header">{this.props.type}</h2>
-            <InformationPage />
-          </div>
-        ) : this.props.type == "Map" ? (
-          <div>
-            <h2 id="content_header">{this.props.type}</h2>
-            <Map />
-          </div>
-        ) : this.props.type == "InterviewLocations" ? (
-          <div>
-            <h2 id="content_header">{this.props.type}</h2>
-            <InterviewLocations />
-          </div>
-        ) : this.props.type == "Committee" ? (
-          <div>
-            <h2 id="content_header">{this.props.type}</h2>
-            <Committee />
-          </div>
-        ) : (
-          <div>
-            <h2 id="content_header">{this.props.type}</h2>
-            <Volunteer />
-          </div>
-        )}
+      <div className="body-content">
+        <p className="main-logo">illinois expo</p>
+        <InformationPage />
+        <h2 id="content_header">fair map</h2>
+        <Map />
+
+        <h2 id="content_header">interview locations</h2>
+        <InterviewLocations />
+
+        <h2 id="content_header">Recruiter Information</h2>
+        <RecruiterInfo />
+
+        <h2 id="content_header">Volunteer</h2>
+        <Volunteer />
+
+        <h2 id="content_header">committee</h2>
+        <Committee />
       </div>
     );
   }

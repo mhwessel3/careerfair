@@ -7,11 +7,7 @@ class Map extends React.Component {
   }
 
   render() {
-    return (
-      <div className="map">
-        <img src="https://parking.illinois.edu/-/media/parking/generalmap/campus-parking-map.ashx" />
-      </div>
-    );
+    return <div className="map" />;
   }
 }
 

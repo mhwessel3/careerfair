@@ -3,6 +3,67 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h1 {
+  color: #13294b;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  color: #13294b;
+  width: 25%;
+}
+
+li a {
+  display: block;
+  color: #13294b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: #e84a27;
+  text-decoration-line: underline;
+}
+
+.main-logo {
+  padding-top: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #e84a27;
+}
+
+td {
+  padding: 20px;
+}
+
+.schedule-table {
+  padding: 120px 0px;
+  font-size: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+  font-size: 36px;
+  color: #13294b;
+  padding: 120px 40px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
 #main {
   width: 100%;
 }
@@ -15,6 +76,30 @@ body {
   right: 0;
 }
 
+.date {
+  font-size: 56px;
+  padding: 5px;
+  font-weight: bolder;
+}
+
+.info-facts {
+  font-size: 36px;
+  text-align: center;
+  color: #e84a27;
+  padding: 25px;
+  background: #13294b;
+  padding: 120px 40px;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.committee {
+  float: left;
+  padding-bottom: 100px;
+}
+
 .headwrapper {
   height: 100%;
   position: fixed;
@@ -23,8 +108,6 @@ body {
   overflow-x: hidden;
   padding-left: 35px;
   padding-right: 35px;
-  background-color: #13294b;
-  color: white;
 }
 
 .memberCards {
@@ -32,31 +115,26 @@ body {
   padding-right: 50px;
 }
 
-#memberImg {
+.member-img-container {
   height: 300px;
   width: 300px;
   float: right;
+  overflow: hidden;
 }
 
-.bodywrapper {
-  height: 100%;
-  width: 75%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 30px;
+.member-img {
+  max-width: 100%;
 }
 
-#volunteerInfo {
+.volunteer-info {
   float: left;
 }
 
-#volunteerText {
+.volunteer-text {
   margin-top: 0px;
 }
 
-#volunteerImg {
+.volunteer-img {
   float: left;
   width: 43%;
   padding-right: 50px;
@@ -71,17 +149,20 @@ body {
   width: 95%;
 }
 
-#quicklinks:hover {
-  color: orange;
+.quicklinks {
+  font-size: larger;
+  color: #13294b;
+}
+
+.quicklinks:hover {
+  color: #e84a27;
 }
 
 #content_header {
   color: #e84a27;
   margin-top: 0px;
   font-weight: bolder;
-}
-
-p:hover {
+  padding-top: 30px;
 }
 
 #member_title {

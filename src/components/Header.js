@@ -11,7 +11,6 @@ class Header extends React.Component {
     this.setState(state => ({
       activeTab: param
     }));
-    console.log(param);
   }
 
   render() {
@@ -20,24 +19,33 @@ class Header extends React.Component {
         <div className="split left headwrapper">
           <h1>ILLINOIS EXPO</h1>
           <p
-            id="quicklinks"
+            className="quicklinks"
             onClick={this.handleClick.bind(this, "Information")}
           >
             Information
           </p>
-          <p id="quicklinks" onClick={this.handleClick.bind(this, "Map")}>
+          <p
+            className="quicklinks"
+            onClick={this.handleClick.bind(this, "Map")}
+          >
             Company Booth Map
           </p>
           <p
-            id="quicklinks"
+            className="quicklinks"
             onClick={this.handleClick.bind(this, "InterviewLocations")}
           >
             Interview Locations
           </p>
-          <p id="quicklinks" onClick={this.handleClick.bind(this, "Volunteer")}>
+          <p
+            className="quicklinks"
+            onClick={this.handleClick.bind(this, "Volunteer")}
+          >
             Volunteer
           </p>
-          <p id="quicklinks" onClick={this.handleClick.bind(this, "Committee")}>
+          <p
+            className="quicklinks"
+            onClick={this.handleClick.bind(this, "Committee")}
+          >
             Committee
           </p>
         </div>
