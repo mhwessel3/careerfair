@@ -17,9 +17,6 @@ class RecruiterInfo extends React.Component {
             <a>Booths</a>
           </li>
           <li>
-            <a>Payment</a>
-          </li>
-          <li>
             <a>Cancellation</a>
           </li>
           <li>
