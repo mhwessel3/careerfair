@@ -197,6 +197,7 @@ h2 {
 }
 
 .footer {
+  background-color: #13294b;
   min-width: 100%;
   min-height: 70px;
   position: relative;
@@ -210,4 +211,8 @@ h2 {
   -ms-flex-align: center;
   align-items: center;
   width: 100%;
+}
+
+.uiuclogo {
+  margin: 5%;
 }

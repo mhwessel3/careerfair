@@ -8,9 +8,7 @@ class Footer extends React.Component {
   render() {
     return (
       <div className="footer">
-        {/* <a>
-          <i class="fab fa-facebook-f" />
-        </a> */}
+        <img className="uiuclogo" src="./images/uiuc_branding.png" />
       </div>
     );
   }
