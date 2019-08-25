@@ -1,5 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Information() {
   return (
@@ -33,7 +32,7 @@ function Information() {
                       />
                     </svg>
                   </tr>
-                  <tr>1000+</tr>
+                  <tr>10,000+</tr>
                   <tr>Students</tr>
                 </table>
               </td>
@@ -57,7 +56,7 @@ function Information() {
                       />
                     </svg>
                   </tr>
-                  <tr>500+</tr>
+                  <tr>447+</tr>
                   <tr>Companies</tr>
                 </table>
               </td>

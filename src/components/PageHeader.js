@@ -1,5 +1,4 @@
 import React from "react";
-import MainContent from "./MainContent";
 
 class PageHeader extends React.Component {
   constructor(props) {
@@ -42,12 +41,12 @@ class PageHeader extends React.Component {
           </div>
           <div className="info-facts">
             <div className="main-logo">
-              Illinois Engineering <span className="blue">Career Fair</span>
+              Illinois Engineering <span className="orange">Career Fair</span>
             </div>
-            <div className="date-location blue">
+            <div className="date-location orange">
               Sept 10 - 11, 2019 | 12:00 pm – 6:00 pm
             </div>
-            <div className="date-location blue">
+            <div className="date-location orange">
               201 E Peabody Dr, Champaign, Illinois, 61820
             </div>
           </div>
