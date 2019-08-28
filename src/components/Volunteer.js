@@ -13,14 +13,10 @@ class Volunteer extends React.Component {
           We need your help! Volunteers are able to connect with recruiters
           before, during, and after the fair. Over $500 in gift cards will be
           raffled to thank student volunteers!
-          <br />
-          <br />
-          <a href="http://volunteersignup.org/HT8TT">Sign up here!</a>
-          <br />
-          <br />
-          <span className="orange">
-            Contact volunteers@illinoisexpo.com with any questions.
-          </span>
+        </div>
+        <a href="http://volunteersignup.org/HT8TT">Volunteer Sign Up</a>
+        <div className="info orange">
+          Contact volunteers@illinoisexpo.com with any questions.
         </div>
       </div>
     );

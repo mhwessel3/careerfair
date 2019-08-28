@@ -6,11 +6,7 @@ class Footer extends React.Component {
   }
 
   render() {
-    return (
-      <div className="footer">
-        <img className="uiuclogo" src="./images/uiuc_branding.png" />
-      </div>
-    );
+    return <div className="footer">Organized by Engineering Council</div>;
   }
 }
 

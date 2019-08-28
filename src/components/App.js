@@ -8,6 +8,9 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="body-content">
+      <nav>
+        <img src="./images/expo.png"></img>
+      </nav>
       <PageHeader />
       <Information />
       <InterviewLocations />
