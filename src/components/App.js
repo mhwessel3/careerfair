@@ -9,7 +9,16 @@ function App() {
   return (
     <div className="body-content">
       <nav>
-        <img src="./images/expo.png"></img>
+        <img className="navlogo" src="./images/expo.png"></img>
+        <a href="https://www.facebook.com/EngineeringCouncilUIUC/">
+          <img className="sociallink" src="./images/facebook.png"></img>
+        </a>
+        <a href="https://www.instagram.com/ec_illinois/?hl=en">
+          <img className="sociallink" src="./images/instagram.png"></img>
+        </a>
+        <a href="https://twitter.com/EC_UIUC">
+          <img className="sociallink" src="./images/twitter.png"></img>
+        </a>
       </nav>
       <PageHeader />
       <Information />
