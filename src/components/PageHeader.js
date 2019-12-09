@@ -45,8 +45,8 @@ class PageHeader extends React.Component {
               Illinois Engineering <span className="orange">Career Fair</span>
             </div>
             <div className="date-location">
-              <div>Sept 10 - 11, 2019</div>
-              <div>12:00 pm – 6:00 pm</div>
+              <div>January 28 - 30, 2020</div>
+              <div>2:00 pm – 6:00 pm</div>
               <div>201 E Peabody Dr. Champaign, Illinois, 61820</div>
             </div>
           </div>
