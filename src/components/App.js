@@ -1,7 +1,8 @@
 import React from "react";
 import PageHeader from "./PageHeader";
-import InterviewLocations from "./InterviewLocations";
-import Volunteer from "./Volunteer";
+// import InterviewLocations from "./InterviewLocations";
+// import Volunteer from "./Volunteer";
+import Virtual from "./Virtual";
 import Information from "./Information";
 import Footer from "./Footer";
 
@@ -22,11 +23,23 @@ function App() {
       </nav>
       <PageHeader />
       <Information />
-      <InterviewLocations />
-      <Volunteer />
+      <Virtual />
       <Footer />
     </div>
   );
 }
 
 export default App;
+
+
+// Original Order
+// <PageHeader />
+// <Information />
+// <InterviewLocations />
+// <Volunteer />
+// <Footer />
+//
+// <PageHeader />
+// <Information />
+// <Virtual />
+// <Footer />
