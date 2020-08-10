@@ -1,8 +1,9 @@
 import React from "react";
 import PageHeader from "./PageHeader";
-// import InterviewLocations from "./InterviewLocations";
-// import Volunteer from "./Volunteer";
+import InterviewLocations from "./InterviewLocations";
+import Volunteer from "./Volunteer";
 import Virtual from "./Virtual";
+import Days from "./Days";
 import Information from "./Information";
 import Footer from "./Footer";
 
@@ -23,6 +24,7 @@ function App() {
       </nav>
       <PageHeader />
       <Information />
+      <Days />
       <Virtual />
       <Footer />
     </div>
@@ -39,7 +41,9 @@ export default App;
 // <Volunteer />
 // <Footer />
 //
+// New Order
 // <PageHeader />
 // <Information />
+// <Days />
 // <Virtual />
 // <Footer />

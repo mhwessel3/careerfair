@@ -122,6 +122,18 @@ nav img {
     margin-bottom: 1%;
   }
 
+  .days a {
+    border: #13294b solid 2px;
+    color: #13294b;
+    padding: 1em 1em;
+    text-decoration: none;
+    display: block;
+    margin: 0px 40%;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-bottom: 1%;
+  }
+
   .virtual a {
     border: #13294b solid 2px;
     color: #13294b;
