@@ -14,8 +14,8 @@ class Virtual extends React.Component {
           Below are two tutorials to help you set up your CareerEco account and navigate the website.
         </div>
 
-        <a href="https://students.grainger.illinois.edu/get_file?eid=5a0576fc8170c00f4ddba1f757d56c1d">Tutorial 1</a>
-        <a href="https://students.grainger.illinois.edu/get_file?eid=5f5768c65df9fb039f4e929f4f213d29">Tutorial 2</a>
+        <a href="../tutorials/tutorial1.pdf">Tutorial 1</a>
+        <a href="../tutorials/tutorial2.pdf">Tutorial 2</a>
 
 
         <div className="info">
