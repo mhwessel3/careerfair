@@ -46,7 +46,7 @@ class PageHeader extends React.Component {
             </div>
             <div className="date-location">
               <div>September 9 - 11, 2020</div>
-              <div>9:00 am – 6:00 pm</div>
+
               <div>Virtual - CareerEco</div>
             </div>
           </div>
@@ -57,3 +57,5 @@ class PageHeader extends React.Component {
 }
 
 export default PageHeader;
+
+// <div>9:00 am – 6:00 pm</div>
