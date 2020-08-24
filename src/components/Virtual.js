@@ -6,6 +6,9 @@ class Virtual extends React.Component {
   }
 
   render() {
+
+    const alertFunction = () => {alert("Recording for this session will be published after the next live session.\nClick OK to go to the session's slide deck."); }
+
     return (
       <div className="virtual">
         <h2 id="content_header">Virtual Career Fair Information</h2>
@@ -23,7 +26,7 @@ class Virtual extends React.Component {
           The links to the two sessions are below.
         </div>
 
-        <a href="https://illinois.zoom.us/j/97066238328?pwd=N1Z1UzVZS3dVbStvRTJFdTVVcHJSdz09">August 12th <br/> 6:30 pm CDT</a>
+        <a href="../tutorials/session1.pdf" onClick= {alertFunction }>August 12th <br/> 6:30 pm CDT</a>
         <a href="https://illinois.zoom.us/j/91061684393?pwd=SHFGaGVOOWdKRXFQWklCQUtnNitJUT09">September 7th <br/>6:30 pm CDT</a>
 
 
