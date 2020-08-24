@@ -26,7 +26,7 @@ class Virtual extends React.Component {
           The links to the two sessions are below.
         </div>
 
-        <a href="../tutorials/session1.pdf" onClick= {alertFunction }>August 12th <br/> 6:30 pm CDT</a>
+        <a href="https://drive.google.com/drive/folders/1enxbwpjI36DPDzeZ7_ZGWycWe_a0FNeH?usp=sharing">August 12th <br/> 6:30 pm CDT</a>
         <a href="https://illinois.zoom.us/j/91061684393?pwd=SHFGaGVOOWdKRXFQWklCQUtnNitJUT09">September 7th <br/>6:30 pm CDT</a>
 
 
