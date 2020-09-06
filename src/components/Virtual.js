@@ -27,7 +27,7 @@ class Virtual extends React.Component {
         </div>
 
         <a href="https://drive.google.com/drive/folders/1enxbwpjI36DPDzeZ7_ZGWycWe_a0FNeH?usp=sharing">August 12th <br/> 6:30 pm CDT</a>
-        <a href="https://illinois.zoom.us/s/96150804745">September 7th <br/>6:30 pm CDT</a>
+        <a href="https://illinois.zoom.us/j/96150804745?pwd=ci9vbEdWclhYWkZlNEhDb1FjMWpOQT09">September 7th <br/>6:30 pm CDT</a>
 
 
       </div>
