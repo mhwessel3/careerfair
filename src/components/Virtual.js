@@ -23,11 +23,11 @@ class Virtual extends React.Component {
 
         <div className="info">
           Additionally, EXPO Committee will be hosting TWO Zoom sessions to answer outstanding student questions and offer some advice for success at an online career fair!
-          The links to the two sessions are below.
+          The links to the resources from both sessions are below.
         </div>
 
         <a href="https://drive.google.com/drive/folders/1enxbwpjI36DPDzeZ7_ZGWycWe_a0FNeH?usp=sharing">August 12th <br/> 6:30 pm CDT</a>
-        <a href="https://illinois.zoom.us/j/96150804745?pwd=ci9vbEdWclhYWkZlNEhDb1FjMWpOQT09">September 7th <br/>6:30 pm CDT</a>
+        <a href="https://drive.google.com/drive/folders/1q68e6ZY8tUQ5zqptYaK-F7wHARJwdcwO?usp=sharing">September 7th <br/>6:30 pm CDT</a>
 
 
       </div>
