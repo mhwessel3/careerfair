@@ -45,7 +45,7 @@ class PageHeader extends React.Component {
               Illinois Engineering <span className="orange">Career Fair</span>
             </div>
             <div className="date-location">
-              <div>September 9 - 10, 2020</div>
+              <div>February 17, 2021</div>
 
               <div>Virtual - CareerEco</div>
             </div>
