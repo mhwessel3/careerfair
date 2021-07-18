@@ -15,7 +15,7 @@ class Days extends React.Component {
         </div>
 
         <a href="https://careereco.com/Fair/CandidateDashboard?fairId=49c73a49-7ec5-419b-a8f3-abf401828800"> February 17th: <br/> Internship & Full-time Employement</a>
-        <a href="https://careereco.com/Fair/Schedule?fairId=49c73a49-7ec5-419b-a8f3-abf401828800">Company List</a>
+        {/* <a href="https://careereco.com/Fair/Schedule?fairId=49c73a49-7ec5-419b-a8f3-abf401828800">Company List</a> */}
 
       </div>
     );
