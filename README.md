@@ -6,6 +6,10 @@ View the site at illinoisexpo.org
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs the required node modules specified by `package.json`. Run this before `npm start`. 
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
